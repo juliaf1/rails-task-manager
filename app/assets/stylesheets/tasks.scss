@@ -1,0 +1,25 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Open+Sans&display=swap');
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+
+}

@@ -1,0 +1,15 @@
+<div class="container text-center mt-5">
+  <h1><%= @task.title %></h1>
+
+  <%= link_to 'Back to list', tasks_path, class: "btn btn-light btn-sm mb-3" %>
+
+  <p class="mb-2"><%= @task.details %></p>
+
+  <% if @task.completed %>
+    <p><i class="fas fa-check-square"></i> Task completed</p>
+  <% else %>
+    <p><i class="fas fa-square"></i> Not completed yet</p>
+  <% end %>
+
+  <%= link_to 'Edit Task', edit_path, class: "btn btn-dark" %>
+</div>
